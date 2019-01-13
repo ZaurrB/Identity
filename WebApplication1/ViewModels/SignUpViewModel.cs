@@ -8,5 +8,6 @@ namespace WebApplication1.ViewModels {
         public string Password { get; set; }
         [Compare("Password"), DataType(DataType.Password)]
         public string Password2 { get; set; }
+        public string Password3 { get; set; }
     }
 }
